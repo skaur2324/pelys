@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, Sans-serif;
+}
+
+body{
+    background-color: #222;
+
+    
+}
+
+
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 70px;
+    height: 40px;
+    background-color: 
+}
+
+img{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.red{
+    color: white;
+    height: 20px;
+    width: 220px;
+    text-align: center;
+    color: ; 
+    float:right;
+    margin-right: 100px;
+    position: relative;
+    bottom: 0px;
+
+    
+}
+
+
+
+
+
+ul{
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+    margin: 5px;
+    text-decoration: none;
+    display: block;
+ 
+}
+li{
+    display: inline;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    color: #ccc;
+}
+
+a:hover{
+    text-decoration: underline 2px;
+    color: #FFF;
+}
+
+
+h1{
+    color: white;
+    margin-left: 20px;
+}
+
+.documentos{
+    background-color: ;
+    width: 175px;
+    height: 100%;
+    margin: 5px;
+    position: relative;
+    float:left;
+}
+
+.titol{
+    color: #CCC;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.interessants img:hover{
+    opacity: 50%;
+}
+
+.anys{
+    margin-top: 5px;
+    color: white;
+    font-size: 11px;
+    width: 50px;
+    background-color: ;
+    margin-left: 20px;
+}
+
+.tipus{
+    color: white;
+    font-size: 11px;
+    width: 85px;
+    float: right;
+    position: relative;
+    bottom: 15px;
+    left: 45px;
+    background-color: ;
+}
+
+.contenidor{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color:;
+    float: left;
+    filter: grayscale(100%);
+}
+
+.contenidor_pendents{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: 165px;
+    background-color:;
+    float: left;
+    
+}
+
+
+.contenidor_vistes{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    top: 350px;
+    background-color:;
+    float: left;
+    
+}
+
+
+.contenidor_series_seg{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 550px;
+    background-color:;
+    float: left;
+    
+}
+
+.contenidor_series_vis{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: 640px;
+    background-color:;
+    float: left;
+    
+}
+
+
+
