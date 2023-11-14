@@ -5,9 +5,7 @@
 }
 
 body{
-    background-color: #222;
-
-    
+    background-color: #222;    
 }
 
 
@@ -15,19 +13,21 @@ body{
     width: 100%;
     height: 40px;
     background-color: black;
-    background-attachment: fixed;
+    position: fixed;
+    z-index: 5000;
+    filter: opacity(50%);
 }
 
 .logo{
     width: 70px;
     height: 40px;
-    background-color: 
 }
 
 img{
     position: relative;
     margin-left: 20px;
     margin-top: 5px;
+    border-radius: 5px;
 }
 
 .red{
@@ -35,18 +35,12 @@ img{
     height: 20px;
     width: 220px;
     text-align: center;
-    color: ; 
-    float:right;
+    color: white; 
+    float: right;
     margin-right: 100px;
     position: relative;
-    bottom: 0px;
-
-    
+    bottom: 0px;   
 }
-
-
-
-
 
 ul{
     position: relative;
@@ -55,10 +49,10 @@ ul{
     margin: 5px;
     text-decoration: none;
     display: block;
- 
 }
+
 li{
-    display: inline;
+    display: inline-block;
 }
 
 a{
@@ -75,10 +69,12 @@ a:hover{
     color: #FFF;
 }
 
-
 h1{
     color: white;
-    margin-left: 20px;
+    position: relative;
+    margin-left: 25px;
+    top: 50px;
+    font-size: 22px;
 }
 
 .documentos{
@@ -88,6 +84,13 @@ h1{
     margin: 5px;
     position: relative;
     float:left;
+    margin-top: 50px;
+}
+
+.box{
+    width:100%;
+    height:100%;
+    clear:both;
 }
 
 .titol{
@@ -116,60 +119,64 @@ h1{
     float: right;
     position: relative;
     bottom: 15px;
-    left: 45px;
-    background-color: ;
+    left: 20px;
+    text-align: right;
 }
 
-.contenidor{
+#contenidor{
     position: relative;
     width: 100%;
     height: 200px;
-    background-color:;
     float: left;
     filter: grayscale(100%);
 }
 
-.contenidor_pendents{
+#contenidor_pendents{
     position: relative;
     width: 100%;
     height: 200px;
-    top: 165px;
-    background-color:;
-    float: left;
-    
+    margin-top: 190px;
+    float: left;  
 }
 
 
-.contenidor_vistes{
+#contenidor_vistes{
     position: relative;
     width: 100%;
     height: 180px;
-    top: 350px;
-    background-color:;
-    float: left;
-    
+    margin-top: 190px;
+    float: left;  
 }
 
+#contenidor_vistes img{
+    filter: grayscale(90%);
+}
 
-.contenidor_series_seg{
+#contenidor_series_seg{
     position: relative;
     width: 100%;
     height: 300px;
-    top: 550px;
-    background-color:;
-    float: left;
-    
+    margin-top: 190px;
+    float: left;    
 }
 
-.contenidor_series_vis{
+#contenidor_series_vis{
     position: relative;
     width: 100%;
     height: 200px;
-    top: 640px;
+    margin-top: 80px;
     background-color:;
-    float: left;
-    
+    float: left;  
 }
+
+#contenidor_series_vis img{
+    filter: grayscale(100%);
+}
+
+#contenidor_series_vis img{
+    filter: grayscale(100%);
+}
+    
 
 
 
